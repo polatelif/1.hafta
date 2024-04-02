@@ -1,0 +1,66 @@
+h1{color:rgb(240, 161, 14)}
+h2{color: rgb(240, 180, 16);}
+.bold-elif{
+color: rgb(30, 5, 255) ;
+text-decoration: underline;
+text-shadow: 0cqi;
+background-color: bisque;
+}
+#mp1{
+    color: rgb(179, 102, 252);
+text-shadow: black;
+}
+#mp2{
+    color: blueviolet;
+}
+.name{
+    position: fixed;
+}
+body{
+    height: 2000px;
+}
+.mp4{
+    border: 2px dotted red;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+.flex-item{
+    flex: 0 1 auto;
+    align-self: center;
+    order: 2;
+}
+.header-container{
+    color: rgb(122, 3, 233);
+    background-color: rgb(233, 221, 54);
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photo-grid{
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    ;
+}
+.photo-grid-item{
+    border: 1px;
+    width: 300px;
+    height: 300px;
+}
